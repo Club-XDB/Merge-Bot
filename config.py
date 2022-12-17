@@ -8,7 +8,7 @@ class Config(object):
     OWNER = "5674750841"
     OWNER_USERNAME = "@Ayankojiko"
     PASSWORD = "12345"
-    DATABASE_URL = os.environ.get("DATABASE_URL")
+    DATABASE_URL = "mongodb+srv://ClubFX:ClubFX@cluster0.qs8fait.mongodb.net/?retryWrites=true&w=majority"
     LOGCHANNEL = "-1001871188394"
     GDRIVE_FOLDER_ID = os.environ.get("GDRIVE_FOLDER_ID","root")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", None)
